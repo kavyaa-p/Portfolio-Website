@@ -1,3 +1,7 @@
+* {
+    margin:0px;
+}
+
 html {
     background-color: black;
    /*  background-image: url('waves.gif'); 
@@ -54,12 +58,20 @@ p {
 
     /* styles for aboutMe class div */
 .aboutMe {
+    display:flex;
+        /* hearty: set display to flex so gojo and ur bio are aligned */
     text-align: left;
     margin-top: 20%;
+    padding-bottom:175px;
+        /* hearty: added padding */
 }
 
 .aboutMe img {
     height: 350px;
+}
+
+.image-container{
+    margin-left:100px;
 }
 
 .aboutMe h1 {
@@ -71,7 +83,9 @@ p {
     font-size: 20px;
 }
 
-.flex-container {
+/* since i removed flex-container in html i commented these out */
+
+/* .flex-container {
     display: flex;
     flex-direction: row;
 }
@@ -79,7 +93,7 @@ p {
 .flex-container img {
     margin-top: 5%;
     margin-left: 2%;
-}
+} */
 
 .about-me-text {
     display: flex;
