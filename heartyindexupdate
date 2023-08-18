@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--Metadata for the page-->
+    <head>
+        <title>Kavya's Portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="KavyaPortfolio.css">
+    </head>
+
+    <!--Onto the body of homepage-->
+    <body>
+        <div class="intro-container">
+            <div id="intro">
+                <h1> 
+                    Hi! 👋🏽 <br/>
+                    I'm Kavya <br/> Pabbaraju
+                </h1>
+                <p>
+                    I’m an incoming 3rd year transfer student at the <br/>
+                    University of California, Irvine, majoring in Software Engineering.
+                </p>
+            </div>
+        </div>
+
+        <!--Scrolling To Next Section-->
+        <!--About Me Section-->
+        <div class="aboutMe">
+
+            <!-- hearty: i changed the div containers -->
+
+            <div class="image-container">
+                <img src="yuuji.JPG" alt="Yuuji from Jujutsu Kaisen"/>
+            </div>
+                
+            <div class="about-me-text">
+                <h1> About Me </h1>
+                <p>
+                    Hi again! I'm Kavya. I'm an incoming transfer student at UC Irvine. <br/>
+                    I will be majoring in Software Engineering.
+                </p> 
+                <p>
+                    I've recently developed an interest in web development, so as a <br/>
+                    first project, I created this website. I intend it to work as a <br/>
+                    personal portfolio showcasing projects that I will be working on!
+                </p>
+                <p>
+                    My passion however is healthcare. I hope to work in healthcare and <br/>
+                    work on programming medical devices. I am especially interested in <br/>
+                    surgical robots and wish to work in this part of the field.
+                </p>
+                <p>
+                    As a college student with no work experience, I am still learning skills <br/>
+                    through college courses and personal projects. I hope to get an internship <br/>
+                    and apply the skills I learned into a real work setting!
+                </p>
+            </div>
+
+        </div>
+
+        <!--Scrolling To Next Section-->
+        <!--Projects Section-->
+        <div class="project-container">
+            <div id="projects">
+
+            </div>
+        </div>
+
+        <!--Scrolling To Next Section-->
+        <!--Contact Me Section-->
+    </body>
+</html>
