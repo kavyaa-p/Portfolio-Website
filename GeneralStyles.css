@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+}
+
+html {
+    background-color: black;
+}
+
+/* custom fonts */
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url(League_Spartan/LeagueSpartan.ttf);
+}
+
+/* base styles for h1 and p */
+h1 {
+    color: white;
+    font-family: 'LeagueSpartan';
+    font-style: bold;
+    font-size: 60px;
+}
+
+p {
+    font-family: 'LeagueSpartan';
+    font-size: 25px;
+    color: white;
+}
+
+.circles {
+    height: 446px;
+    width: 456px;
+    flex-shrink: 0;
+    border-radius: 456px;
+    filter: blur(127.5px);
+    position: relative;
+}
+
+/* #blue {
+    background: #3F51EE;
+    transform: translate(0px, 50px);
+} */
+
+/* #red {
+    background: #E23838;
+    transform: translate(772px, 439px);
+}
+
+#yellow {
+    background: #F1BC32;
+    transform: translate(772px, 439px);
+} */
