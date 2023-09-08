@@ -10,7 +10,6 @@
 }
 
 #intro h1 {
-    font-size: 90px;
     flex-direction: row;
     flex-wrap: wrap;
 }
