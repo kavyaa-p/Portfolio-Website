@@ -1,17 +1,19 @@
-* {
-    margin: 0%;
-}
-
-html {
-    background-color: black;
-    background-image: radial-gradient(circle at 80% 50%, blue);
-}
-
 /* custom fonts */
 
 @font-face {
     font-family: 'LeagueSpartan';
     src: url(League_Spartan/LeagueSpartan.ttf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    background-color: black;
+    background-image: radial-gradient(circle at 80% 50%, blue);
+    scroll-behavior: smooth;
 }
 
 /* base styles for h1 and p */
@@ -20,6 +22,13 @@ h1 {
     font-family: 'LeagueSpartan';
     font-style: bold;
     font-size: 90px;
+}
+
+h2 {
+    color: white;
+    font-family: 'LeagueSpartan';
+    font-style: bold;
+    font-size: 60px;
 }
 
 p {
