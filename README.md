@@ -10,3 +10,6 @@ Image by pngtree.com
 
 Image from [PNGItem](https://www.pngitem.com/middle/hmTimJT_email-icon-email-icon-round-white-png-transparent/)
 <img src="Images/emailLogo.png" width=70>
+
+Image from [Icons8](https://icons8.com/icons/set/github--white)
+<img src="Images/githubLogo.png" width=70>
