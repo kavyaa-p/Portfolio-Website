@@ -1,71 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!--Metadata for the page-->
+<!--Metadata for the page-->
 
-    <head>
-        <title>Kavya's Portfolio</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="../GeneralStyles.css">
-        <link rel="stylesheet" href="ProjectsStyles.css">
-        <link rel="stylesheet" href="../NavBarStyles.css">
-    </head>
+<head>
+    <title>Kavya's Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../GeneralStyles.css">
+    <link rel="stylesheet" href="ProjectsStyles.css">
+    <link rel="stylesheet" href="../NavBarStyles.css">
+</head>
 
-    <body>
-        <!--Navigation Bar-->
-        <div class="nav-bar">
-            <div class="navBar-background">
-                <ul>
-                    <li>
-                        <a href="../Home/HomePage.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="../AboutMe/AboutMePage.html">About</a>
-                    </li>
-                    <li>
-                        <a href="ProjectsPage.html" class="active">Projects</a>
-                    </li>
-                </ul>
+<body>
+    <!-- JavaScript to add fade-in animation -->
+    <script src="../script.js"></script>
+
+    <!--Navigation Bar-->
+    <div class="nav-bar">
+        <div class="navBar-background">
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../AboutMe/AboutMePage.html">About</a>
+                </li>
+                <li>
+                    <a href="ProjectsPage.html" class="active">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- page heading -->
+    <h1>Projects</h1>
+
+    <!-- all projects -->
+    <div class="container">
+
+        <!-- Section 1 of Container -->
+        <!-- List of all projects -->
+        <div class="projects-list">
+
+            <!-- Project 1 -- Portfolio Website -->
+            <div class="project1">
+                <h3>Portfolio Website</h3>
+                <p id="status"> Status: In-progress
+                    <br>
+                    <a href="#project1-info">
+                        <img src="../Images/portfolioWebImg.jpg" alt="screenshot of the home page of this website">
+                    </a>
+                    <br>
+                    <span>HTML/CSS</span>
+                </p>
+            </div>
+
+            <!-- Project 2 -- Flixter App -->
+            <div class="project2">
+                <h3>Flixter App</h3>
+                <p> Status: Completed
+                    <br>
+                    <a href="#project2-info">
+                        <img src="" alt="screenshot of flixter app">
+                    </a>
+                    <br>
+                    <span>Java, Movie Database API, Android Async HTTP, Glide</span>
+                </p>
+            </div>
+
+            <!-- Project 3 -- Photographic Genre Website -->
+            <div class="project3">
+                <h3>Photographic Genre Website</h3>
+                <p> Status: Completed
+                    <br>
+                    <a href="#project3-info">
+                        <img src="" alt="screenshot of flixter app">
+                    </a>
+                    <br>
+                    <span>HTML/CSS</span>
+                </p>
             </div>
         </div>
 
-        <!-- page heading -->
-        <h1>Projects</h1>
+        <!-- Section 2 of Container -->
+        <!-- Breakdown of all projects -->
+        <div class="project-info">
 
-        <!-- all projects -->
-        <div class="container">
-            <div class="projects-list">
-                <div id="portfolio">
-                    <p>Portfolio Website</p>
-                </div>
-                <div>
-                    <p>Flixter App</p>
-                </div>
-                <div>
-                    <p>Photographic Genre Website</p>
-                </div>
-            </div>
-
-            <!-- project breakdown -->
-            <div class="project-info">
-                <div class="projects">
+            <!-- Project 1 Container -->
+            <div class="project-info-container">
+                <div id="project1-info">
                     <!-- heading -->
-                    <div id="project1-info">
-                        <h2>Portfolio Website</h2>]
-                        <p>
-                            This website was created to showcase various projects I make
-                        </p>
-                    </div>
-                    <div id="project1-img">
-                        <!-- insert gif of website -->
-                        <a href="#portfolio">
-                            <img src="../Images/yuuji.JPG" alt="gif of current website">
-                        </a>
-                        
-                    </div>
+                    <h2>Portfolio Website</h2>
+                    <h3 style="color: rgb(15, 47, 203);">HTML/CSS, JavaScript</h3>
+                    <p>
+                        This website was created to showcase various projects I have made so far and
+                        plan on making in the future. The development of the site is still in progress. <br><br>
+
+                        So far, the website has been made purely through HTML and CSS. I hope to
+                        soon refresh my knowledge in JavaScript and include animations and other
+                        components of the website that JavaScript is necessary for.
+                    </p>
+                </div>
+                <div id="project1-img">
+                    <!-- insert gif of website -->
+                    <img src="../Images/yuuji.JPG" alt="gif of current website">
+
                 </div>
             </div>
-        </div>
 
-    </body>
+            <!-- Project 2 Container -->
+            <div class="project-info-container">
+                <div id="project2-img">
+                    <!-- insert gif of website -->
+                    <img src="../Images/yuuji.JPG" alt="gif of current website">
+
+                </div>
+                <div id="project2-info">
+                    <!-- heading -->
+                    <h2>Flixter App</h2>
+                    <h3 style="color: rgb(232, 182, 0);">Java, Movie Database API, Android Async HTTP, Glide</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Project 3 Container -->
+            <div class="project-info-container">
+                <div id="project3-info">
+                    <!-- heading -->
+                    <h2>Photographic Genre <br> Website</h2>
+                    <h3 style="color: rgb(190, 0, 0);">HTML/CSS</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div id="project3-img">
+                    <!-- insert gif of website -->
+                    <img src="../Images/yuuji.JPG" alt="gif of current website">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
 </html>

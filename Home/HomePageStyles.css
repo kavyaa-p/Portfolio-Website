@@ -1,3 +1,13 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("../Images/blueGradientCircle.png"), 
+                      url("../Images/redGradientCircle.png"), 
+                      url("../Images/yellowGradientCircle.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left top, right center, bottom center;
+}
+
 /* overriding styles for h1 and p */
     /* styles for intro class div */
 .intro-container{
