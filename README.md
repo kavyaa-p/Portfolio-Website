@@ -5,4 +5,4 @@
 <img src="Images/PortfolioWebsiteGIF.gif">
 
 Image by pngtree.com
-<img src="Images/linkedinLogo.png"> 
+<img src="Images/linkedinLogo.png" width=100> 
