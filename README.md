@@ -12,4 +12,4 @@ Image from [PNGItem](https://www.pngitem.com/middle/hmTimJT_email-icon-email-ico
 <img src="Images/emailLogo.png" width=70>
 
 Image from [Icons8](https://icons8.com/icons/set/github--white)
-<img src="Images/githubLogo.png" width=90>
+<img src="Images/githubLogo.png" width=85>
