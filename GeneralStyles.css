@@ -53,3 +53,7 @@ p {
     font-size: 25px;
     color: white;
 }
+
+img {
+    object-fit: cover;
+}
