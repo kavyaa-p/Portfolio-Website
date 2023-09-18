@@ -4,6 +4,7 @@
 ### GIF of the website
 <img src="Images/PortfolioWebsiteGIF.gif">
 
+### Image Attribution
 Image by pngtree.com
 <img src="Images/linkedinLogo.png" width=100> 
 
