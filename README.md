@@ -4,5 +4,5 @@
 ### GIF of the website
 <img src="Images/PortfolioWebsiteGIF.gif">
 
-#Image by pngtree.com
-<img src="Images/linkedInLogo.png"> 
+Image by pngtree.com
+<img src="Images/linkedinLogo.png"> 
