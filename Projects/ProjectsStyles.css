@@ -1,3 +1,12 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("../Images/blueGradientCircle.png"), 
+                      url("../Images/redGradientCircle.png"); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right center;
+}
+
 /* General styles for the page ??? */
 h1 {
     text-align: center;

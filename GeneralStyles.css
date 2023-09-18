@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    text-decoration: none;
 }
 
 /* custom fonts */
@@ -54,6 +55,10 @@ p {
     color: white;
 }
 
-img {
-    object-fit: cover;
+a {
+    color: white;
 }
+
+/* img {
+    object-fit: cover;
+} */
