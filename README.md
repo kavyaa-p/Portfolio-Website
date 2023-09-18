@@ -7,5 +7,5 @@
 Image by pngtree.com
 <img src="Images/linkedinLogo.png" width=100> 
 
-Image from [PNGItem](https://www.pngitem.com/middle/hmTimJT_email-icon-email-icon-round-white-png-transparent/)
+#Image from [PNGItem](https://www.pngitem.com/middle/hmTimJT_email-icon-email-icon-round-white-png-transparent/)
 <img src="Images/emailLogo.png" width=100>
